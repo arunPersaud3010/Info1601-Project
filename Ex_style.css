@@ -1,0 +1,454 @@
+
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+.bnavs{
+  text-decoration: none;
+  color: white;
+}
+
+.bnavs:hover{
+  text-decoration: none;
+}
+
+
+
+body{
+  background: white;
+}
+
+.header1{
+  margin: -10px;
+  background-color:rgb(84, 147, 202);
+  font-family: 'Bungee shade';
+  padding: 10px;
+  -webkit-box-shadow: 0 3px 8px grey;
+}
+
+#searcharea{ 
+top: 17px;
+left: 240px;
+height: 40px;
+margin-left: 250px;
+margin-right: 500px;
+margin-top: -35px;
+}
+
+#searchbox{width: 500px;
+height: 24px;
+background: white;
+padding: 5px;
+padding-right: 100px;
+outline: none;
+border-radius: 10px/10px;
+background-image: url(sr.png);
+background-position: 465px;
+background-repeat: no-repeat;
+ }
+
+ #hnavbox{
+   margin-left: 900px;
+   margin-top: -30px;
+   margin-bottom: 20px;
+ }
+
+#linkbox a{
+padding: 100px;
+padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+.container{
+  position: relative;
+  width:1230px;
+  height: 610px;
+  margin: 100px auto;
+  padding-bottom: 60px;
+ background-color: white;
+  
+}
+.container .box{
+  position: relative;
+  width: calc(400px - 30px);
+  height: calc(300px - 30px);
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+
+.container .box .icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/foodi.jpg") ;
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon .fa{
+  color:#5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon .fa{
+  font-size: 40px;
+}
+
+
+.container .box .info{
+  position: absolute;
+  text-align: center;
+  height: calc(100%-100px);
+  top:100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  
+}
+.container .box:hover .info{
+top:100px;
+transition: 0.5s;
+}
+
+
+
+
+
+
+
+//--------------------------------------
+.container .box{
+  position: relative;
+  width: 350px;
+  height: 350px;;
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.container .box .icon2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/travel2.jpg") ;
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon2 {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon2 .fa{
+  color: #5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon2 .fa{
+  font-size: 40px;
+
+}
+//-----------------------------------------
+.container .box{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.container .box .icon3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/game4.jpg");
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon3 {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon3 .fa{
+  color: #5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon3 .fa{
+  font-size: 40px;
+
+}
+//-----------------------------------------
+.container .box{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.container .box .icon4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/meme.jpeg");
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon4 {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon4 .fa{
+  color: #5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon4 .fa{
+  font-size: 40px;
+
+}
+//-----------------------------------------
+.container .box{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.container .box .icon5{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/art.png");
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon5 {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon5 .fa{
+  color: #5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon5 .fa{
+  font-size: 40px;
+
+}
+
+
+#htext{
+  padding-right:50%;
+  padding-left:20px;
+  font-size:200%;
+  color:white;
+  -webkit-text-stroke: 2px black;
+
+
+}
+
+#hnavs{
+  font-size:120%;
+  color: black;
+  padding-right:20px;
+  
+}
+//-----------------------------------------
+.container .box{
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background: #5493ca;
+  float:left;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.container .box .icon6{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:url("ex_img/movie.jpg");
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+
+}
+
+.container .box:hover .icon6 {
+  top: 20px;
+  left : calc(50% - 40px);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.container .box .icon6 .fa{
+  color: #5493ca;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+ 
+}
+
+.container .box:hover .icon6 .fa{
+  font-size: 40px;
+
+}
+//-----------------------------------------
+
+#htext{
+  padding-right:50%;
+  padding-left:20px;
+  font-size:200%;
+  color:white;
+  -webkit-text-stroke: 2px black;
+
+
+}
+
+#hnavs{
+  font-size:120%;
+  color: black;
+  padding-right:20px;
+  
+}
+
+img{
+  
+  border-radius: 20px;
+
+  width:100;
+  height: 300px;
+  padding-left: 10px;
+ 
+  
+}
+
+
+.gallery{
+  
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+
+
+}
+
+.img1{
+  margin-left: 30px;
+}
+.img7{
+  margin-left: 80px;
+
+}
+
