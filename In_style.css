@@ -2,33 +2,37 @@ a:link{
   text-decoration: none;
 }
 a:hover{
-  text-decoration:underline;
+  text-decoration:none;
 }
 
+body{
+  background-image: url("img/game.png");
+}
 
 .header1{
-  margin: -10px;
+  margin:-10px;
   margin-bottom: 10px;
   background-color:rgb(84, 147, 202);
   font-family: 'Bungee shade';
   padding: 10px;
   -webkit-box-shadow: 0 3px 8px grey;
+
 }
 
+
 #searcharea{ 
-top: 17px;
-left: 240px;
 height: 40px;
 margin-left: 250px;
 margin-right: 500px;
 margin-top: -35px;
 }
 
-#searchbox{width: 500px;
+#searchbox{
+width:70%;
 height: 24px;
 background: white;
 padding: 5px;
-padding-right: 100px;
+padding-right: 10%;
 outline: none;
 border-radius: 10px/10px;
 background-image: url(sr.png);
@@ -37,16 +41,37 @@ background-repeat: no-repeat;
  }
 
 .postbox{
-  margin-right:400px;;
-  margin-left:400px;  
+  margin-right:390px;;
+  margin-left:25%;  
   margin-top:80px;
+  margin-bottom: -480px;
+  background-color:white;
+  padding-right: 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 3px 8px rgb(0,0,0, 0.25);
+  background-color: white;
+  border: 5px solid #5493ca;
+  width: 45%;
+  
+
+}
+
+.postboxpf{
+  margin-right:390px;;
+  margin-left:400px;  
+  margin-top:300px;
   margin-bottom: -480px;
   background-color:white;
   border-radius: 20px;
   -webkit-box-shadow: 0 3px 8px rgb(0,0,0, 0.25);
-  
-
+  background-color: white;
+  border: 5px solid #5493ca;
 }
+
+
+
+
+
 .txt{
  
   padding-bottom:50px;
@@ -61,7 +86,7 @@ background-repeat: no-repeat;
   margin-bottom: 20px;
   margin-top: px;
 
-  width:40vw;
+  width:90%;
   background-color:rgb(84, 147, 202);
   font-size:90%;
   color: white; 
@@ -110,11 +135,15 @@ background-color: #3c86c7
   padding: 10px;
   font-size: 26px;
   margin-top: 50px;
-  margin-right: -50px;
-  margin-left: -50px;
+  margin-right: -45px;
+  margin-left: -30px;
   margin-bottom: 50px;
   border-radius: 15px;
   background-color: #d2d3d7;
+  border: 5px solid #5493ca;
+  width:115%;
+  
+  
 }
 
 
@@ -128,11 +157,13 @@ background-color: #3c86c7
   padding-left: 15px;
   padding-top: 5px;
   font-family: 'Bellota';
+  color: black;
 }
 
 .sideb:hover{
   background: #e9f0f2;
 }
+
 
 .gamebox{
   border-radius: 10px;
@@ -143,7 +174,8 @@ background-color: #3c86c7
   padding-top: 10px;
   padding-bottom: 10px;
   -webkit-box-shadow: 0 3px 8px rgb(0,0,0, 0.25);
-
+  background-color: white;
+  border: 5px solid #5493ca;
 }
 
 
@@ -175,13 +207,26 @@ background-color: #3c86c7
 #post{
 position: absolute;
 width: 43vw;
-margin-top: 50px;
-margin-left: 400px;
+margin-top: 5px;
+margin-left: 25%;
+padding: auto;
+
+
+}
+
+
+#postpf{
+position: absolute;
+width: 43vw;
+margin-top: 80px;
+margin-left: 500px;
 padding: auto;
 }
 
 #in1{
   margin:10px;
+  width:95%;
+  border: 1px solid gray;
 }
 
 #form1{
@@ -189,6 +234,7 @@ padding: auto;
   margin-bottom: 0px;
   padding-top:10px;
   padding-left: 5px;
+
 } 
 
 
@@ -198,6 +244,7 @@ padding: auto;
 
 #side1{
   background-color: white;
+  border: 5px solid #5493ca;
   margin-top:10px;
   margin-left: 20px;
   height: 500px;
@@ -229,17 +276,19 @@ padding: auto;
 }
 
 #hnavs2{
-  margin-left: 900px;
+  margin-left: 60%;
   margin-top: -35px;
   color: black;
   margin-bottom: 20px;
+
   
 }
 
 #anchor{
 position: fixed;
-margin-top: 300px;
+margin-top: 280px;
 padding-left: 1100px;
+
 }
 
 #aimg{
@@ -248,7 +297,7 @@ padding-left: 1100px;
 }
 
 #postspan{
-  padding-left: 600px;
+  padding-left: 75%;
   margin-top: -50px;
   margin-bottom: -20px;
   padding-top: 10px;
@@ -257,13 +306,15 @@ padding-left: 1100px;
 
 #pspanimg{
   width: 50px;
+  
+}
+
+#timeline{
+  padd
+  border: 3px solid red;
 }
 
 
-
-body{
-  background-image: url("img/.png");
-}
 
 
 
@@ -273,6 +324,8 @@ body{
 }
 
 li {
+  background-color: white;
+  border: 5px solid #5493ca;
   list-style-type: none;
   width: 100%;
   padding: 30px;
@@ -354,6 +407,7 @@ background-color: #3c86c7
   border-top-right-radius: 10px;
   
 }
+////
 
 
 
@@ -364,7 +418,7 @@ background-color: #3c86c7
 }
 
 .wallpaper{
-border: 10px solid #d2d3d7;
+border: 10px solid #5493ca;
 margin-left: 300px;
 border-radius: 10px; 
 width: 1000px;
@@ -398,12 +452,9 @@ padding-bottom: 20px;
   margin-left: 660px;
   margin-right: 520px;
   padding-left: 55px;
-  color:black;
-  background-color: #d2d3d7;
+  color:white;
+  background-color: #5493ca;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 
 }
-
-
-
